@@ -1,1 +1,50 @@
 // Specific CSS for your home-page
+#home {
+  // background-color: white;
+  color: back;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+  text-align: left;
+  p {
+    margin-top: 1.5em;
+    margin-left: 30px;
+    opacity: 0.8;
+  }
+  h1 {
+    margin-left: 30px;
+  }
+  a {
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  background: white;
+  align-items: center;
+  padding: 20px 10px;
+}
+// .about-description {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   height: 300px;
+// }
+.touch {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  a { text-decoration: none; color: black}
+}
+
+
+h1 {
+  font-size: 60px;
+}

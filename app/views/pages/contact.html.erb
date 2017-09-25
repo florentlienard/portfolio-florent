@@ -8,21 +8,21 @@
 <div class="headers">
   <!-- Home -->
   <div class="left">
-    <%= link_to "Home", "", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Home", "/", class: "active-tab navbar-wagon-item navbar-wagon-link" %>
   </div>
   <!-- Right Navigation -->
   <div class="right">
-    <%= link_to "Work", "/work", class: "right-item" %>
-    <%= link_to "Contact", "/contact", class: "active-item" %>
+    <%= link_to "Work", "work", class: "right-item" %>
+    <%= link_to "Contact", "contact", class: "right-item" %>
   </div>
 </div>
 <div class="contact-banner">
   <div class="contact-mail">
-    <p>If you have an idea in mind or want to discuss about your design, UX and web-development projects, you can reach me at <a href="mailito:lienard.florent@gmail.com">lienard.florent@gmail.com</a></p>
+    <p>If you have an idea in mind or want to discuss about your design, UX and web-development projects, you can reach me at <a href="mailto:lienard.florent@gmail.com">lienard.florent@gmail.com</a></p>
   </div>
   <div class="social">
-    <%= link_to image_tag('twitter.png', width: 50, class: "social"), "http://www.linkedin.com/in/lucasraert" %>
-    <%= link_to image_tag('github.png', width: 50, class: "social"), "http://www.linkedin.com/in/lucasraert" %>
-    <%= link_to image_tag('linkedin.png', width: 50, class: "social"), "http://www.linkedin.com/in/lucasraert" %>
+    <%= link_to image_tag('twitter.png', width: 50, class: "social"), "http://www.linkedin.com" %>
+    <%= link_to image_tag('github.png', width: 50, class: "social"), "http://www.linkedin.com/" %>
+    <%= link_to image_tag('linkedin.png', width: 50, class: "social"), "http://www.linkedin.com" %>
   </div>
 </div>

@@ -11,7 +11,8 @@
     text-decoration: none;
     color: black;
     &:hover {
-      color: rgba(0, 0, 0, 0.7);
+      color: #64B5F6;
+      transition: 0.2s
     }
   }
 }

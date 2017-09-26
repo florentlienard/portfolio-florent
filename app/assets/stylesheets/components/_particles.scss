@@ -18,6 +18,7 @@ $time-4: 60s;
    @return $val;
 }
 
+
 @mixin particles($max) {
    box-shadow: particles($max);
 }
@@ -152,7 +153,6 @@ $time-4: 60s;
   from { transform: translateY(0px)}
   to   { transform: translateY($spacing * -2) }
 }
-
 
 
 // .page-wrapper {

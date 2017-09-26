@@ -1,4 +1,10 @@
 // Specific CSS for your home-page
+.home-banner {
+  position: relative;
+    background-position: center;
+    height: 100vh;
+    background-size: cover !important;
+}
 #home {
   color: back;
   height: 100vh;

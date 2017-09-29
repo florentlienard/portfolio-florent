@@ -11,10 +11,10 @@
   height: 100px;
   width: 100%;
 }
-.experience-title {
+.experience-title  {
   margin: 15px;
 }
-.experience-moto{
+.experience-moto  {
   margin-bottom: 15px;
 }
 .btn-work {
@@ -59,4 +59,44 @@
   margin-top: 25px;
   margin-bottom: 40px;
   border-color: rgb(180, 180, 180);
+}
+
+// Fade in
+.work-experience {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }

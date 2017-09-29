@@ -30,17 +30,19 @@
 .about {
   display: flex;
   justify-content: space-around;
-  height: 400px;
+  // height: auto;
   background: white;
   align-items: center;
   padding: 20px 10px;
+  text-align: center;
 }
-// .about-description {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-around;
-//   height: 300px;
-// }
+.about-picture {
+  margin: 25px 30px;
+}
+.para-description p{
+  font-size: 18px;
+  margin: 25px 30px;
+}
 .touch {
   height: 200px;
   display: flex;
@@ -50,9 +52,93 @@
   a { text-decoration: none; color: black}
 }
 
-.home p{
-  font-size: 24px;
-}
-h1 {
+.home h1 {
   font-size: 60px;
 }
+
+// Fade-in
+#home h1 {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#home p {
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+  @media (max-width: 750px) {
+    .about {
+      flex-direction: column;
+      .about-picture {
+        margin-top: 30px;
+      }
+    }
+  }

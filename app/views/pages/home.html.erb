@@ -18,6 +18,9 @@
 </div>
 <div id="home">
   <div class="home">
+  <div id="CSStransforms">
+  <div class="square el"></div>
+</div>
     <h1>
     Hi! I am Florent Liénard.
     </h1>
@@ -31,8 +34,8 @@
     <h2 class = "title-description">ABOUT</h2>
     <div class="para-description">
       <p>I help startups structure, design and create their online experiences.</p>
-      <p>I'm a self taugh UX designer based in Paris. After working in high-growing startups (mainly marketplaces) I decided to focus on product and design which has always been my best interest. I am now working as a freelance and am open to any discussion regarding a project or a collaboration.</p>
-      <p>Good news: As I wanted to create my own projects, I've learned Web Development, that means I can also code your awesome website from scratch 😀</p>
+      <p>After working in high-growing startups (mainly marketplaces) I decided to focus on product and design which has always been my best interest. I am now working as a freelance and am open to any discussion regarding a project or a collaboration.</p>
+      <p>Good news: I can also code your awesome website from scratch 😊 (Ruby on Rails, Javascript, HTML/CSS)</p>
     </div>
   </div>
   <div class="about-picture">
@@ -43,3 +46,17 @@
   <h3><strong>Want to get in touch?</strong></h3>
   <a href="mailto:lienard.florent@gmail.com">lienard.florent@gmail.com</a>
 </div>
+
+<script>
+anime({
+  targets: 'div',
+  translateX: [
+    { value: 100, duration: 1200 },
+    { value: 0, duration: 800 }
+  ],
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 2000,
+  loop: true
+});
+</script>

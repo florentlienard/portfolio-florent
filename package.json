@@ -1,5 +1,7 @@
 {
   "name": "portfolio-florent",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "animejs": "^2.2.0"
+  }
 }

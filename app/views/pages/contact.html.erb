@@ -8,12 +8,13 @@
 <div class="headers">
   <!-- Home -->
   <div class="left">
-    <%= link_to "Home", "/", class: "active-tab navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Home", "/", class: "navbar-wagon-item navbar-wagon-link" %>
   </div>
   <!-- Right Navigation -->
   <div class="right">
     <%= link_to "Work", "work", class: "right-item" %>
-    <%= link_to "Contact", "contact", class: "right-item" %>
+    <%= link_to "About", "about", class: "right-item" %>
+    <%= link_to "Contact", "contact", id: "active-tab", class: "right-item" %>
   </div>
 </div>
 <div class="contact-banner">

@@ -8,11 +8,12 @@
 <div class="headers">
   <!-- Home -->
   <div class="left">
-    <%= link_to "Home", "/", class: "active-tab navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Home", "/", id: "active-tab", class: "navbar-wagon-item navbar-wagon-link" %>
   </div>
   <!-- Right Navigation -->
   <div class="right">
     <%= link_to "Work", "work", class: "right-item" %>
+    <%= link_to "About", "about", class: "right-item" %>
     <%= link_to "Contact", "contact", class: "right-item" %>
   </div>
 </div>
@@ -24,39 +25,16 @@
     <h1>
     Hi! I am Florent Liénard.
     </h1>
-    <p>
+    <p class = "job-title">
       Product Designer & Web Developer
     </p>
   </div>
 </div>
-<div class="about">
-  <div class="about-description">
-    <h2 class = "title-description">ABOUT</h2>
-    <div class="para-description">
-      <p>I help startups structure, design and create their online experiences.</p>
-      <p>After working in high-growing startups (mainly marketplaces) I decided to focus on product and design which has always been my best interest. I am now working as a freelance and am open to any discussion regarding a project or a collaboration.</p>
-      <p>Good news: I can also code your awesome website from scratch (Ruby on Rails, Javascript, HTML/CSS)</p>
-    </div>
-  </div>
-  <div class="about-picture">
-    <%= image_tag("provisoire.png", width: 200) %>
-  </div>
-</div>
-<div class="touch">
-  <h3><strong>Want to get in touch?</strong></h3>
-  <a href="mailto:lienard.florent@gmail.com">lienard.florent@gmail.com</a>
-</div>
-
-<script>
-anime({
-  targets: 'div',
-  translateX: [
-    { value: 100, duration: 1200 },
-    { value: 0, duration: 800 }
-  ],
-  rotate: '1turn',
-  backgroundColor: '#FFF',
-  duration: 2000,
-  loop: true
-});
-</script>
+    <script src= "../../node_modules.animejs.anime.min.js"></script>
+    <script>
+        anime({
+          targets: 'div',
+          translateX: 500,
+          duration: 1000
+        });
+    </script>

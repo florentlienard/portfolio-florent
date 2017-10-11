@@ -2,10 +2,10 @@
 // $color-bg: black;
 $color-particle: #E3F2FD;
 $spacing: 2960px;
-$time-1: 15s;
-$time-2: 15s;
-$time-3: 25s;
-$time-4: 25s;
+$time-1: 1005s;
+$time-2: 1005s;
+$time-3: 1005s;
+$time-4: 1005s;
 
 /* Pauls awesome mixin */
 
@@ -151,7 +151,7 @@ $time-4: 25s;
 
 @keyframes animParticle {
   from { transform: translateY(0px)}
-  to   { transform: translateY($spacing * -2) }
+  to   { transform: translateY($spacing * -150) }
 }
 
 

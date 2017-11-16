@@ -6,13 +6,11 @@
     background-size: cover !important;
 }
 #home {
-  color: back;
+  // color: back;
   height: 100vh;
   display: flex;
   align-items: center;
-  // justify-content: space-around;
   text-align: left;
-    // background-color: rgba(255, 255, 255, 0.3);
   p {
     margin-top: 1.5em;
     margin-left: 30px;
@@ -36,10 +34,28 @@
   a { text-decoration: none; color: black}
 }
 
-.home h1 {
+h1 {
   font-size: 60px;
+  font-weight: bold;
+}
+h5 {
+  text-align: center;
 }
 
+.picture {
+  border-radius: 50%;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+  justify-content: space-around;
+  width: 70%;
+}
+.about-description {
+  width: 350px;
+}
 // Fade-in
 #home h1 {
     animation: fadein 2s;
@@ -128,32 +144,3 @@
       }
     }
   }
-
-
-  // TESTS
-
-//   .shadow {
-//     position: absolute;
-//     opacity: .2;
-// }
-// .square, .circle {
-//     pointer-events: none;
-//     position: relative;
-//     width: 28px;
-//     height: 28px;
-//     margin: 1px;
-//     background-color: currentColor;
-//     font-size: 12px;
-// }
-// element.style {
-//     transform: translateX(250px) scale(2) rotate(1turn);
-// }
-// .square .circle {
-//     pointer-events: none;
-//     position: relative;
-//     width: 28px;
-//     height: 28px;
-//     margin: 1px;
-//     background-color: currentColor;
-//     font-size: 12px;
-// }

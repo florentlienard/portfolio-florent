@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
     def index
     end
-    def work
+    def leasy
     end
-    def contact
+    def work
     end
   end

@@ -8,12 +8,10 @@
 <div class="headers">
   <!-- Home -->
   <div class="left">
-    <%= link_to "Home", "/", id: "active-tab", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to image_tag("logo.svg"), "/", id: "active-tab", class: "navbar-wagon-item navbar-wagon-link" %>
   </div>
   <!-- Right Navigation -->
   <div class="right">
-    <%= link_to "Work", "work", class: "right-item" %>
-    <%= link_to "About", "about", class: "right-item" %>
     <%= link_to "Contact", "contact", class: "right-item" %>
   </div>
 </div>
@@ -23,18 +21,81 @@
       <div class="square el"></div>
     </div>
     <h1>
-    Hi! I am Florent Liénard.
+    Hi! I am Florent.
     </h1>
-    <p>
-      Product Designer & Developper
-    </p>
+    <h1>
+    Product Designer based in Paris.
+    </h1>
   </div>
 </div>
-<script src= "../../node_modules.animejs.anime.min.js"></script>
-<script>
-anime({
-targets: 'div',
-translateX: 500,
-duration: 1000
-});
-</script>
+<div class="about">
+  <div class="picture-container">
+    <%= image_tag('photo.png', class: 'picture', height: '250', width: '250')  %>
+  </div>
+  <div class="about-description" style="width: 450px;">
+    <p>I help startups structure, design and create online experiences.   </p>
+    <p>I am a self-taugh UX designer with a business background. I spend most of my time working on UX, design and front development projects.</p>
+  </div>
+</div>
+<div class="skills">
+  <div class="skill">
+    <div class="icon">
+      <%= image_tag('light.svg', width: '100') %>
+    </div>
+    <div class="skill-title">
+      <p><strong>UI/UX Design</strong></p>
+    </div>
+    <div class="skill-description">
+      <p>I love creating simple and clear web & mobile interfaces.</p>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon">
+      <%= image_tag('code.svg', width: '100') %>
+    </div>
+    <div class="skill-title">
+      <p><strong>Front End Development</strong></p>
+    </div>
+    <div class="skill-description">
+      <p>I code in HTML, CSS and Javascript.</p>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon">
+      <%= image_tag('write-board.svg', width: '100') %>
+    </div>
+    <div class="skill-title">
+      <p><strong>Teacher</strong></p>
+    </div>
+    <div class="skill-description">
+      <p>I coach students at Le Wagon in design and front end development.</p>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon">
+      <%= image_tag('automation.svg', width: '100') %>
+    </div>
+    <div class="skill-title">
+      <p><strong>Business processes</strong></p>
+    </div>
+    <div class="skill-description">
+      <p>I have been working in high growing startups and love automate things.</p>
+    </div>
+  </div>
+</div>
+<div class="work">
+  <h5><strong>Latest work</strong></h3>
+  <div class="cards-container">
+    <div class="card">
+      <div class="card-image">
+      <p>hello</p>
+      </div>
+    </div>
+    <script src= "../../node_modules.animejs.anime.min.js"></script>
+    <script>
+    anime({
+    targets: 'div',
+    translateX: 500,
+    duration: 1000
+    });
+    </script>

@@ -1,0 +1,20 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 auto;
+  margin: 10px;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.card-image {
+  height: 280px;
+  background-size: cover;
+  background-image: url('leasy.png');
+  color: black;
+}

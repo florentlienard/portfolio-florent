@@ -3,4 +3,6 @@ class PagesController < ApplicationController
     end
     def leasy
     end
+    def work
+    end
   end

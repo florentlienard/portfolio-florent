@@ -1,0 +1,51 @@
+.leasy-container {
+  width: 100%;
+  position:relative;
+}
+.cross-nav {
+  position: fixed;
+  top: 60px;
+  right: 100px;
+}
+.presentation {
+  margin-top: 150px;
+  text-align: center;
+}
+.skills-leasy {
+  padding-top: 30px;
+  color: grey;
+}
+.laptops {
+  margin-top: 30px;
+}
+.definition {
+  margin: 30px auto;
+  width: 70%;
+}
+.technologies {
+  font-size: 14px;
+}
+.leasy-button {
+  margin: 40px;
+}
+
+.btn-leasy {
+  margin: 0px auto;
+  margin-top: 35px;
+  color: $blue;
+  border: 1px solid $blue;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.2s;
+  font-size: 22px;
+  z-index: 4;
+}
+.btn-leasy:hover {
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.2s;
+}
+

@@ -8,7 +8,7 @@
   right: 100px;
 }
 .presentation {
-  margin-top: 150px;
+  margin-top: 180px;
   text-align: center;
 }
 .skills-leasy {
@@ -16,17 +16,17 @@
   color: grey;
 }
 .laptops {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .definition {
-  margin: 30px auto;
+  margin: 60px auto;
   width: 70%;
 }
 .technologies {
   font-size: 14px;
 }
 .leasy-button {
-  margin: 40px;
+  margin: 60px;
 }
 
 .btn-leasy {
@@ -48,4 +48,34 @@
   opacity: 1;
   transition: 0.2s;
 }
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('paris-banner.png');
+}
+.laptops-size {
+  width: 700px;
+}
 
+@media (max-width: 750px) {
+.presentation {
+  margin-top: 80px;
+  text-align: center;
+}
+  .cross-nav {
+    top: 30px;
+    right: 50px;
+  }
+  .laptops {
+    margin-top: 50px;
+  }
+  .laptops-size {
+    width: 350px;
+  }
+}

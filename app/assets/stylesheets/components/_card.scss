@@ -85,3 +85,12 @@
   text-decoration: none;
   color: $blue;
 }
+
+@media (max-width: 750px) {
+  .card {
+    width: 300px;
+  }
+  .card-footer {
+    padding: 20px;
+  }
+}

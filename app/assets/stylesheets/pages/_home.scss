@@ -175,7 +175,15 @@ margin-bottom: 20px;
 margin-left: 20px;
 }
 .about-description {
-margin-left: 10px;
+margin-left: 0px;
 padding: 10px 0px;
+}
+#home {
+  h1 {
+    margin-left: 0px;
+  }
+}
+.light-blue{
+  padding: 100px 20px;
 }
 }

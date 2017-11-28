@@ -9,7 +9,7 @@
   <div class="headers">
     <!-- Home -->
     <div class="left">
-      <%= link_to image_tag("logo.svg"), "/", id: "active-tab", class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to image_tag("logo.png", width: 70), "/", id: "active-tab", class: "navbar-wagon-item navbar-wagon-link" %>
     </div>
     <!-- Right Navigation -->
     <div class="right">
@@ -29,63 +29,69 @@
       </h1>
     </div>
   </div>
-  <div class="about">
-    <div class="picture-container">
-      <%= image_tag('photo.png', class: 'picture', height: '250', width: '250')  %>
+</div>
+<div class="light-blue-container" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'triangle.png' %>);">
+  <div class="light-blue">
+    <div class="about">
+      <div class="picture-container">
+        <%= image_tag('photo.png', class: 'picture', height: '250', width: '250')  %>
+      </div>
+      <div class="about-description">
+        <p>I help startups structure, design and create online experiences.  </p>
+        <p>I am a UX designer with a business background. I spend most of my time working on UX, design and front development projects.</p>
+      </div>
     </div>
-    <div class="about-description";>
-      <p>I help startups structure, design and create online experiences.  </p>
-      <p>I am a UX designer with a business background. I spend most of my time working on UX, design and front development projects.</p>
+    <div class="skills">
+      <div class="skill">
+        <div class="icon">
+          <%= image_tag('light.svg', height: '70') %>
+        </div>
+        <div>
+          <p class="skill-title"><strong>UI/UX Designer</strong></p>
+        </div>
+        <div class="skill-description">
+          <p>I love creating simple and clear web & mobile interfaces.</p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="icon">
+          <%= image_tag('code.svg', height: '70') %>
+        </div>
+        <div >
+          <p class="skill-title"><strong>Front-End Dev</strong></p>
+        </div>
+        <div class="skill-description">
+          <p>I code web applications in HTML, CSS and Javascript.</p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="icon">
+          <%= image_tag('white-board.svg', height: '70') %>
+        </div>
+        <div>
+          <p class="skill-title"><strong>Teacher</strong></p>
+        </div>
+        <div class="skill-description">
+          <p>I coach students at Le Wagon in design and front end development.</p>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="skills">
-    <div class="skill">
-      <div class="icon">
-        <%= image_tag('light.svg', height: '70') %>
-      </div>
-      <div>
-        <p class="skill-title"><strong>UI/UX Designer</strong></p>
-      </div>
-      <div class="skill-description">
-        <p>I love creating simple and clear web & mobile interfaces.</p>
-      </div>
-    </div>
-    <div class="skill">
-      <div class="icon">
-        <%= image_tag('code.svg', height: '70') %>
-      </div>
-      <div >
-        <p class="skill-title"><strong>Front-End Dev</strong></p>
-      </div>
-      <div class="skill-description">
-        <p>I code web applications in HTML, CSS and Javascript.</p>
-      </div>
-    </div>
-    <div class="skill">
-      <div class="icon">
-        <%= image_tag('white-board.svg', height: '70') %>
-      </div>
-      <div>
-        <p class="skill-title"><strong>Teacher</strong></p>
-      </div>
-      <div class="skill-description">
-        <p>I coach students at Le Wagon in design and front end development.</p>
-      </div>
-    </div>
-    <!--     <div class="skill">
-      <div class="icon">
-        <%#= image_tag('automation.svg', height: '100') %>
-      </div>
-      <div class="skill-title">
-        <p><strong>Business processes</strong></p>
-      </div>
-      <div class="skill-description">
-        <p>I have been working in high growing startups and love automate things.</p>
-      </div>
-    </div> -->
+</div>
+<!--     <div class="skill">
+  <div class="icon">
+    <%#= image_tag('automation.svg', height: '100') %>
   </div>
+  <div class="skill-title">
+    <p><strong>Business processes</strong></p>
+  </div>
+  <div class="skill-description">
+    <p>I have been working in high growing startups and love automate things.</p>
+  </div>
+</div> -->
+<div class="page-container">
   <div class="work">
-    <h5><strong>Latest work</strong></h3>
+    <h5><strong>Latest work</strong></h5>
     <div class="cards-container">
       <div class="card" style="margin: 70px auto";>
         <div class="card-image" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'paris-banner.png' %>);">

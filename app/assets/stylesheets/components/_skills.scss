@@ -1,12 +1,14 @@
 .skills {
-  margin: 80px auto;
+  margin: 80px 0px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  max-width: 1200px;
 }
 .skill {
-  margin: 40px 60px;
-  flex-basis: 20%;
+  margin: 40px 0px;
+  flex-basis: 33%;
+  padding: 0 15px;
 }
 .skill-title{
   font-weight: bold;

@@ -4,6 +4,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1200px;
+  padding-bottom: 100px;
 }
 .skill {
   margin: 40px 0px;
@@ -16,6 +17,7 @@
   margin-top: 30px;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 .icon {
   margin-bottom: 7px;
@@ -31,19 +33,23 @@
   background-position: center;
   background-size: cover;
   transition: 0.5s;
+  margin: 0 auto;
 }
 #first-icon img {
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 #first-icon:hover {
   background-image: url('design_2.svg');
   transition: 0.5s;
+  margin: 0px auto;
+  background-position: center;
 }
 #second-icon {
-  margin: 30px;
+  margin: 0px auto;
   background-image: url('code.svg');
-  height: 80px;
-  width: 140px;
+  height: 110px;
+  width: 150px;
   background-position: center;
   background-size: cover;
   transition: 0.5s;
@@ -59,10 +65,11 @@
   margin-bottom: 7px;
   background-image: url('board.svg');
   height: 110px;
-  width: 100px;
+  width: 110px;
   background-position: center;
   background-size: cover;
   transition: 0.5s;
+  margin: 0 auto;
 }
 #third-icon img {
   margin-bottom: 20px;

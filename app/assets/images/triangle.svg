@@ -3,8 +3,15 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>triangle</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <radialGradient cx="-34.8067419%" cy="80.543977%" fx="-34.8067419%" fy="80.543977%" r="163.324585%" gradientTransform="translate(-0.348067,0.805440),scale(0.500000,1.000000),rotate(-10.228805),translate(0.348067,-0.805440)" id="radialGradient-1">
+            <stop stop-color="#F4474D" offset="0%"></stop>
+            <stop stop-color="#F6F6F6" offset="27.3716039%"></stop>
+            <stop stop-color="#F57E82" offset="90.3027442%"></stop>
+            <stop stop-color="#F4474D" offset="100%"></stop>
+        </radialGradient>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="triangle" fill="#F54476" points="0 247.172 1316 0 1316 421 0 658"></polygon>
+        <polygon id="triangle" fill="url(#radialGradient-1)" points="0 247.172 1316 0 1316 421 0 658"></polygon>
     </g>
 </svg>

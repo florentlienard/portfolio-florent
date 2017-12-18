@@ -1,11 +1,11 @@
 <div class="page-container">
   <div class="page-bg"></div>
-  <div class="animation-wrapper">
+  <!--   <div class="animation-wrapper">
     <div class="particle particle-1"></div>
     <div class="particle particle-2"></div>
     <div class="particle particle-3"></div>
     <div class="particle particle-4"></div>
-  </div>
+  </div> -->
   <div class="headers">
     <!-- Home -->
     <div class="left">
@@ -30,7 +30,7 @@
     </div>
   </div>
 </div>
-<div class="light-blue-container" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'triangle.png' %>);">
+<div class="light-blue-container" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'triangle.svg' %>);">
   <div class="light-blue">
     <div class="about">
       <div class="picture-container">
@@ -38,44 +38,41 @@
       </div>
       <div class="about-description">
         <p>I help startups structure, design and create online experiences.  </p>
-        <p>I am a UX designer with a business background. I spend most of my time working on UX, design and front development projects.</p>
+        <p>I am a UX designer, front-end developer and design teacher with a business background. I spend most of my time working on UX, design and front development projects.</p>
       </div>
     </div>
-    <div class="skills">
+<!--     <div class="skills">
       <div class="skill">
-        <div class="icon">
-          <%= image_tag('light.svg', height: '70') %>
+        <div id="first-icon">
         </div>
         <div>
-          <p class="skill-title"><strong>UI/UX Designer</strong></p>
+          <p class="skill-title">UI/UX Designer</p>
         </div>
         <div class="skill-description">
           <p>I love creating simple and clear web & mobile interfaces.</p>
         </div>
       </div>
       <div class="skill">
-        <div class="icon">
-          <%= image_tag('code.svg', height: '70') %>
+        <div id="second-icon">
         </div>
         <div >
-          <p class="skill-title"><strong>Front-End Dev</strong></p>
+          <p class="skill-title">Front-End Dev</p>
         </div>
         <div class="skill-description">
           <p>I code web applications in HTML, CSS and Javascript.</p>
         </div>
       </div>
       <div class="skill">
-        <div class="icon">
-          <%= image_tag('white-board.svg', height: '70') %>
+        <div id="third-icon">
         </div>
         <div>
-          <p class="skill-title"><strong>Teacher</strong></p>
+          <p class="skill-title">Teacher</p>
         </div>
         <div class="skill-description">
           <p>I coach students at Le Wagon in design and front end development.</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 <!--     <div class="skill">
@@ -90,48 +87,85 @@
   </div>
 </div> -->
 <div class="page-container">
-  <div class="work">
-    <h5><strong>Latest work</strong></h5>
-    <div class="cards-container">
-      <div class="card" style="margin: 70px auto";>
-        <div class="card-image" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'paris-banner.png' %>);">
-          <a class="card-link" href="/leasy" ></a></div>
-          <div class="card-footer">
-            <span class="work-skills">UX - DESIGN - DEVELOPMENT</span>
-            <span class="work-name">Leasy</span>
-            <span class="work-description">SAAS solution for property managers eager to gain in productivity.</span>
-            <a href="/leasy" class = "btn-learn-more">Learn more</a>
+  <div class="talks">
+    <h5>Recent talks</h5>
+    <div class="talks-container">
+      <div class="row">
+        <div class="talk family">
+          <div class="col-xs-12 col-md-6 text-center">
+            <%= image_tag('family.png', class: 'logo-talks')  %>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <p id = "title-talk"><strong>2 hours landing page</strong><p>
+            <p id = "place-talk">@thefamily - Paris</p>
+              <p id = "talk-description">Taught thefamily Lion attendants how to code and design a landing page from scratch in 2 hours with a live demo.</p>
+            </div>
           </div>
         </div>
-        <div class="card-slice" style="margin: 70px auto";>
-          <div class="card-image-slice" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'uislice-logo.png' %>);">
-            <a class="card-link" href="" ></a></div>
-            <div class="card-footer">
-              <span class="work-skills">UX - DESIGN - DEVELOPMENT</span>
-              <span class="work-name">UI Slice</span>
-              <span class="work-description">Curated directory of UI components to help you build your website.</span>
-              <a href="" class = "btn-learn-more">Coming soon</a>
+        <hr>
+        <div class="row">
+          <div class="talk">
+            <div class="col-xs-12 col-md-6 text-center">
+              <%= image_tag('partech.png', class: 'logo-talks')  %>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <p id = "title-talk"><strong>Products Spec 101</strong><p>
+              <p id = "place-talk">@partechshaker - Paris</p>
+                <p id = "talk-description">I have shared knowledge about product pitch basis, database structure, user stories and UI/UX design.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="contact-container">
-        <h4><strong>Want to get in touch?</strong></h4>
-        <p>If you have an idea in mind or want to discuss about design, UX and web-development projects, you can reach me at </p>
-        <a href="mailto:lienard.florent@gmail.com">lienard.florent@gmail.com</a>
-      </div>
-      <div class="social">
-        <%= link_to image_tag('github.png', width: 50, class: "social-icon"), "https://github.com/florentlienard" %>
-        <%= link_to image_tag('linkedin.png', width: 50, class: "social-icon"), "www.linkedin.com/in/florent-lienard" %>
-      </div>
     </div>
-    <script src= "../../node_modules.animejs.anime.min.js"></script>
-    <script>
-    anime({
-    targets: 'div',
-    translateX: 500,
-    duration: 1000
-    });
-    </script>
-    <!-- Hotjar Tracking Code for florentienard.com -->
-  </div>
+    <div class="work">
+      <br>
+      <br>
+      <h5>Latest work</h5>
+      <div class="cards-container">
+        <div class="card" style="margin: 70px auto";>
+          <div class="card-image" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'paris-banner.png' %>);">
+            <a class="card-link" href="/leasy" ></a></div>
+            <div class="card-footer">
+              <span class="work-skills">UX - DESIGN - DEVELOPMENT</span>
+              <span class="work-name">Leasy</span>
+              <span class="work-description">SAAS solution for property managers eager to gain in productivity.</span>
+              <a href="/leasy" class = "btn-learn-more">Learn more</a>
+            </div>
+          </div>
+          <div class="card-slice" style="margin: 70px auto";>
+            <div class="card-image-slice" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.0) 0%, rgba(0,36,61,0.0) 50%), url(<%= image_path 'uislice-logo.png' %>);">
+              <a class="card-link" href="" ></a></div>
+              <div class="card-footer">
+                <span class="work-skills">UX - DESIGN - DEVELOPMENT</span>
+                <span class="work-name">UI Slice</span>
+                <span class="work-description">Curated directory of UI components to help you build your website.</span>
+                <a href="" class = "btn-learn-more">Coming soon</a>
+              </div>
+            </div>
+          </div>
+          <div class="btn-behance">
+            <a id = "btn-portfolio" class = "text-center" href="https://www.behance.net/flienarde69f" target="_blank">See all my projects</a>
+          </div>
+        </div>
+        <div class="contact-container">
+          <h4>Want to get in touch?</h4>
+          <p>If you have an idea in mind or want to discuss about design, UX and web-development projects, you can reach me at </p>
+          <a href="mailto:lienard.florent@gmail.com">lienard.florent@gmail.com</a>
+        </div>
+        <div class="social">
+          <%= link_to image_tag('github.png', width: 50, class: "social-icon"), "https://github.com/florentlienard" %>
+          <%= link_to image_tag('linkedin.png', width: 50, class: "social-icon"), "www.linkedin.com/in/florent-lienard" %>
+          <%= link_to image_tag('twitter.png', width: 50, class: "social-icon"), "https://twitter.com/fllienard" %>
+        </div>
+      </div>
+      <script src= "../../node_modules.animejs.anime.min.js"></script>
+      <script>
+      anime({
+      targets: 'div',
+      translateX: 500,
+      duration: 1000
+      });
+      </script>
+      <!-- Hotjar Tracking Code for florentienard.com -->
+    </div>

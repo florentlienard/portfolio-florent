@@ -11,10 +11,11 @@
   padding: 0 15px;
 }
 .skill-title{
-  font-weight: bold;
+  font-weight: lighter;
   margin-bottom: 20px;
   margin-top: 30px;
   font-size: 30px;
+  color: white;
 }
 .icon {
   margin-bottom: 7px;
@@ -22,11 +23,59 @@
 .icon img {
   margin-bottom: 20px;
 }
+#first-icon {
+  margin-bottom: 7px;
+  background-image: url('design.svg');
+  height: 110px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+#first-icon img {
+  margin-bottom: 20px;
+}
+#first-icon:hover {
+  background-image: url('design_2.svg');
+  transition: 0.5s;
+}
+#second-icon {
+  margin: 30px;
+  background-image: url('code.svg');
+  height: 80px;
+  width: 140px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+#second-icon img {
+  margin-bottom: 20px;
+}
+#second-icon:hover {
+  background-image: url('code_2.svg');
+  transition: 0.5s;
+}
+#third-icon {
+  margin-bottom: 7px;
+  background-image: url('board.svg');
+  height: 110px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+#third-icon img {
+  margin-bottom: 20px;
+}
+#third-icon:hover {
+  background-image: url('board_2.svg');
+  transition: 0.5s;
+}
 .skill-description {
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 18px;
+  color: white;
 }
-
 @media (max-width: 600px) {
   .skill {
     flex-basis: 90%;

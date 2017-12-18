@@ -9,14 +9,14 @@
   width: 300px;
   margin: 10px auto;
   border-radius: 1px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(100,100,100,0.1);
   transition: all 0.3s ease;
   position: relative;
   border-radius: 2px;
   transition: 0.2s;
 }
 .card:hover {
-  box-shadow: 0 0 25px rgba(0,0,0,0.15);
+  box-shadow: 0 0 25px rgba(100,100,100,0.15);
   transition: 0.3s;
 }
 .card-slice {
@@ -39,6 +39,25 @@
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   background-position: center;
+}
+.btn-behance{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#btn-portfolio{
+  background-color: #52C2F2;
+  border-radius: 35px;
+  padding: 15px 45px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin: auto;
+  transition: 0.3s;
+}
+#btn-portfolio:hover {
+  background: #4596F0;
+  transition: 0.3s;
+  box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.3)
 }
 .card-image-slice {
   background-size: cover;

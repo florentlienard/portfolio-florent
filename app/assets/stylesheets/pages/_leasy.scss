@@ -59,10 +59,37 @@
   justify-content: center;
   background-position: center;
 }
+.colors-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.colors {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.guidelines {
+  margin: 15px auto;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.secondary_guidelines {
+  margin: 15px auto;
+  height: 125px;
+  margin-bottom: 50px;
+}
+.font {
+  height: 500px;
+  margin: 15px auto;
+  margin-bottom: 50px;
+}
+.guideline-title {
+  margin-left: 15px;
+  color: rgb(60, 60, 60)
+}
 .laptops-size {
   width: 700px;
 }
-
 @media (max-width: 750px) {
 .presentation {
   margin-top: 80px;
@@ -78,4 +105,23 @@
   .laptops-size {
     width: 350px;
   }
+  .guidelines {
+  margin: 15px auto;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.secondary_guidelines {
+  margin: 15px auto;
+  height: 62px;
+  margin-bottom: 50px;
+}
+.font {
+  height: 250px;
+  margin: 15px 30px;
+  margin-bottom: 50px;
+}
+.colors-container {
+  width: 100%;
+  margin: 0 auto;
+}
 }

@@ -63,12 +63,19 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 margin: 100px auto;
+padding-top: 100px;
+padding-bottom: 50px;
+
 justify-content: space-between;
 max-width: 1200px;
 }
 .about-description {
 margin-left: 80px;
 padding: 10px;
+color: white;
+font-weight: lighter;
+font-family: 'Open Sans';
+font-size: 22px;
 }
 .social {
 margin: 10px auto;

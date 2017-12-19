@@ -16,3 +16,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 700px) {
+  .banner-screen {
+    width: 350px;
+  }
+
+}

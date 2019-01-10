@@ -1,202 +1,84 @@
-// Specific CSS for your home-page
 .page-container {
-max-width: 1200px;
-margin: auto;
+  max-width: 970px;
+  margin: auto;
 }
-.home-banner {
-position: relative;
-background-position: center;
-height: 100vh;
-background-size: cover !important;
+
+.banner {
+  background: $blue;
+  height: 70vh;
+  padding: 15vh;
 }
-.light-blue-container {
-padding: 0px 0px;
-background-size: cover !important;
-background-position: center;
-padding: 30px 0;
-margin: auto;
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.light-blue {
-margin: auto;
-padding: 100px 100px;
-max-width: 1200px;
-}
-#home {
-height: 70vh;
-margin-left: 60px;
-display: flex;
-align-items: center;
-text-align: left;
-p {
-margin-top: 1.5em;
-margin-left: 30px;
-opacity: 1;
-}
+
 h1 {
-margin-left: 30px;
+  font-weight: 600;
+  color:white;
+  font-size: 64px;
 }
-a {
-color: rgba(0,0,0,0.4);
-font-weight: bold;
-font-size: 16px;
+
+h2 {
+  margin-top: 170px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
 }
+
+.experience-container{
+  // margin-top: 170px;
+  // margin-bottom: 130px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+  grid-gap: 30px;
+  max-width: 1636px;
+  margin: auto;
 }
-.touch {
-height: 200px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-a { text-decoration: none; color: black}
+
+.school-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 50%));
+  max-width: 1636px;
+  margin: auto;
 }
-h1 {
-font-size: 55px;
-font-weight: lighter;
-}
-h5 {
-text-align: center;
-}
-.picture {
-border-radius: 50%;
-}
-#tagline {
-  font-size: 30px;
-}
-#contact-description {
-  font-size: 18px;
-}
-.about {
-display: flex;
-align-items: center;
-margin: 100px auto;
-margin-bottom: 0;
-padding-bottom: 100px;
-padding-top: 100px;
-justify-content: space-between;
-max-width: 1200px;
-}
-.about-description {
-margin-left: 80px;
-padding: 10px;
-color: white;
-font-weight: lighter;
-font-family: 'Open Sans';
-font-size: 22px;
-}
-.social {
-margin: 10px auto;
-text-align: center;
-}
-.social-icon{
-margin: 0px 15px 15px 15px;
-}
-// Fade-in
-#home h1 {
-animation: fadein 2s;
--moz-animation: fadein 2s; /* Firefox */
--webkit-animation: fadein 2s; /* Safari and Chrome */
--o-animation: fadein 2s; /* Opera */
-}
-@keyframes fadein {
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
-@-moz-keyframes fadein { /* Firefox */
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
-@-o-keyframes fadein { /* Opera */
-from {
-opacity:0;
-}
-to {
-opacity: 1;
-}
-}
-#home p {
-animation: fadein 4s;
--moz-animation: fadein 4s; /* Firefox */
--webkit-animation: fadein 4s; /* Safari and Chrome */
--o-animation: fadein 4s; /* Opera */
-color: rgb(31, 31, 31);
-padding-left: 2px;
-}
-@keyframes fadein {
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
-@-moz-keyframes fadein { /* Firefox */
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
-@-o-keyframes fadein { /* Opera */
-from {
-opacity:0;
-}
-to {
-opacity:1;
-}
-}
+
 @media (max-width: 750px) {
-.about {
-flex-direction: column;
-margin-left: 0px;
-margin-right: 0px;
-.about-picture {
-margin-top: 30px;
+  .school-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(440px, 100%));
+  max-width: 1636px;
+  margin: auto;
 }
-}
-h1 {
-font-size: 40px;
-}
-.picture {
-margin-bottom: 20px;
-}
-#home {
-margin-left: 20px;
-}
-.about-description {
-margin-left: 0px;
-padding: 10px 0px;
-}
-#home {
-  h1 {
-    margin-left: 0px;
   }
+
+.school {
+  max-width: 918px;
+  margin: auto;
+  margin-bottom: 40px;
 }
-.light-blue{
-  padding: 100px 20px;
+
+.shape {
+  background: #82C9F5;
+  width: 80px;
+  height: 4px;
+  margin: auto;
+  margin-bottom: 130px;
 }
+
+.contact {
+  background: $blue;
+  color: white;
+  text-align: center;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
+

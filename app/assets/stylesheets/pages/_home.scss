@@ -1,3 +1,6 @@
+body{
+  color: black;
+}
 .page-container {
   max-width: 970px;
   margin: auto;
@@ -5,27 +8,52 @@
 
 .banner {
   background: $blue;
-  height: 70vh;
+  height: 65vh;
   padding: 15vh;
 }
 .banner-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 65vh;
 }
 
+.button-pink {
+  background-color: #FF7373;
+  color: white;
+  text-decoration: none;
+  padding: 15px 28px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
 h1 {
   font-weight: 600;
-  color:white;
-  font-size: 64px;
+  color:black;
+  font-size: 72px;
+  text-align: center;
+  line-height: 60px;
 }
 
 h2 {
-  margin-top: 170px;
-  font-weight: 600;
+  margin-top: 120px;
+  font-weight: 700;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 40px;
+}
+h4{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 30px;
+  letter-spacing: 0.2px;
 }
 
 .experience-container{
@@ -38,16 +66,25 @@ h2 {
   max-width: 1636px;
   margin: auto;
 }
+.experience-container-2 {
+  max-width: 900px;
+  margin: auto;
+
+}
 
 .school-container {
-  text-align: center;
+  text-align: left;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 50%));
   max-width: 1636px;
   margin: auto;
+  // margin-bottom: 170px;
 }
+.school-images {
+  height: 250px;
+  }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .school-container {
   text-align: center;
   display: grid;
@@ -55,12 +92,31 @@ h2 {
   max-width: 1636px;
   margin: auto;
 }
+.school-images {
+  height: 150px;
   }
+
+h1 {
+  font-weight: 600;
+  color:black;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+}
 
 .school {
   max-width: 918px;
   margin: auto;
   margin-bottom: 40px;
+  padding: 40px;
+}
+
+.talk {
+  max-width: 918px;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 40px;
 }
 
 .shape {
@@ -68,9 +124,16 @@ h2 {
   width: 80px;
   height: 4px;
   margin: auto;
-  margin-bottom: 130px;
+  margin-bottom: 60px;
 }
 
+.school-title {
+  color: lightgray;
+}
+.school-description {
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
 .contact {
   background: $blue;
   color: white;
@@ -81,4 +144,5 @@ h2 {
   align-items: center;
   justify-content: space-around;
 }
+.icon {margin-bottom: 20px;}
 

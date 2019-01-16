@@ -13,6 +13,10 @@ body{
   height: 65vh;
   padding: 15vh;
 }
+.experience {
+  flex-wrap: wrap;
+  margin:10px;
+}
 .experience img {
   height: 363px;
 }
@@ -62,7 +66,7 @@ h4{
   letter-spacing: 0.2px;
 }
 
-.experience-container{
+.experience-container-2{
   // margin-top: 170px;
   // margin-bottom: 130px;
   text-align: center;
@@ -71,6 +75,13 @@ h4{
   grid-gap: 30px;
   max-width: 1666px;
   margin: auto;
+}
+.experience-container{
+  display: flex;
+  max-width: 1666px;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
 }
 .school-container {
   max-width: 1200px;
@@ -128,7 +139,9 @@ h4{
   justify-content: space-around;
 }
 .icon {margin-bottom: 20px;}
-
+.margin-side {
+  margin: 30px 0;
+}
 @media (max-width: 850px) {
   .school-container {
   max-width: 1100px;
@@ -149,7 +162,7 @@ h1 {
 h4 {
   font-size: 20px;
 }
-.experience-container{
+.experience-container-2{
   // margin-top: 170px;
   // margin-bottom: 130px;
   text-align: center;
@@ -165,7 +178,7 @@ h4 {
   .icon {
     height: 90px;
   }
-  .experience img {
+  .experience-2 img {
   width: 100vw;
   height: 100%;
 }

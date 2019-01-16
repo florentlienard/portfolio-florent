@@ -5,7 +5,9 @@ body{
   max-width: 970px;
   margin: auto;
 }
-
+.space-top {
+  margin-top: 10vh;
+}
 .banner {
   background: $blue;
   height: 65vh;
@@ -92,7 +94,7 @@ h4{
   text-align: center;
   margin: 20px;
   padding: 30px;
-  box-shadow: 0px 4px 18px rgba(255,115,115, 0.15);
+  box-shadow: 0px 4px 18px rgba(0,0,0, 0.055);
 }
 
 .talk {
@@ -103,7 +105,7 @@ h4{
 }
 
 .shape {
-  background: #82C9F5;
+  background: #FF7373;
   width: 80px;
   height: 4px;
   margin: auto;

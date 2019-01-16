@@ -1,7 +1,7 @@
 # config/meta.yml
 
 meta_product_name: "Florent Liénard"
-meta_title: "Florent Liénard - Product Designer & Web Developer"
-meta_description: "I am a freelance Product Designer & fullstack Web Developer based in Paris and Lille."
+meta_title: "Florent Liénard - Freelance UI / UX Designer"
+meta_description: "UI / UX Designer Freelance in Paris"
 meta_image: "meta-picture.png"                       # should exist in `app/assets/images/`
 twitter_account: "@fllienard"   # required for Twitter Cards

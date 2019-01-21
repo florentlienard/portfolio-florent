@@ -39,6 +39,9 @@ body{
   border-radius: 5px;
   letter-spacing: 1px;
 }
+.button-pink:hover {
+  text-decoration: none;
+}
 .link-pink {
   color:#FF7373;
   text-decoration: none;
@@ -51,7 +54,6 @@ body{
   letter-spacing: 1px;
 }
 
-
 a:hover {
   text-decoration: none;
   color: white;
@@ -63,7 +65,6 @@ h1 {
   text-align: center;
   line-height: 60px;
 }
-
 h2 {
   margin-top: 120px;
   font-weight: 700;
@@ -79,16 +80,6 @@ h4{
   letter-spacing: 0.2px;
 }
 
-// .experience-container-2{
-//   // margin-top: 170px;
-//   // margin-bottom: 130px;
-//   text-align: center;
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
-//   grid-gap: 30px;
-//   max-width: 1666px;
-//   margin: auto;
-// }
 .experience-container{
   display: flex;
   max-width: 1666px;
@@ -115,6 +106,9 @@ h4{
   }
 .space {
   margin-bottom: 120px;
+}
+.semi-space {
+  margin-bottom: 60px;
 }
 .min-space {
   margin-bottom: 60px;
@@ -158,9 +152,25 @@ h4{
   align-items: center;
   justify-content: space-around;
 }
+.line {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100vw;
+}
+.social-network {
+  display: flex;
+  align-items: flex-end;
+}
+.social-image {
+  opacity: 1;
+  margin: 0 30px;
+}
+.social-image:hover {
+  opacity: 1;
+}
 .icon {margin-bottom: 20px;}
 .margin-side {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 @media (max-width: 1300px) {
   .experience img{

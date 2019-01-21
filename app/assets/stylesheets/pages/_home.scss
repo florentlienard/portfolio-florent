@@ -96,6 +96,15 @@ h4{
   margin: auto;
   justify-content: center;
 }
+
+.know-more-container {
+  display: flex;
+  max-width: 1666px;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
 .school-container {
   max-width: 1200px;
   margin: auto;
@@ -104,8 +113,6 @@ h4{
 .school-images {
   height: 250px;
   }
-
-
 .space {
   margin-bottom: 120px;
 }
@@ -170,8 +177,13 @@ h4{
   display:flex;
   flex-direction: column;
 }
+
+.center-elements {
+  margin: auto;
+  }
+
 .school-images {
-  height: 150px;
+  height: 120px;
   }
 h1 {
   font-weight: 600;
@@ -196,13 +208,13 @@ h4 {
 .school-images {
   height: 150px;
   }
-  .icon {
+.icon {
     height: 90px;
   }
-  .experience {
+.experience {
     margin: 10px 0px;
   }
-  .experience img {
+.experience img {
   width: 100%;
   height: 100%;
   margin: 0;

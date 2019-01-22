@@ -18,8 +18,8 @@ body{
   // margin:10px;
 }
 .experience img {
-  height: 21vw;
-  margin: 10px;
+  height: 22vw;
+  margin: 5px;
 }
 .banner-content {
   display: flex;
@@ -174,7 +174,8 @@ h4{
 }
 @media (max-width: 1300px) {
   .experience img{
-  height: 33vw;
+  height: 33.6vw;
+  margin: 5px;
 }
 .experience-container {
   justify-content: start;
